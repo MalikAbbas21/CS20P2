@@ -14,20 +14,20 @@ public class JavaCalc {
         int answer;
         int total = 0;
 
-        if (operator == 1) { // addition
+        if (operator == 1) { 
             System.out.print("Number " + num1 + " + number " + num2 + " equals: ");
             answer = reader.nextInt();
             total = num1 + num2;
-        } else if (operator == 2) { // subtraction
+        } else if (operator == 2) { 
             System.out.print("Number " + num1 + " - number " + num2 + " equals: ");
             answer = reader.nextInt();
             total = num1 - num2;
-        } else if (operator == 3) { // multiplication
+        } else if (operator == 3) {
             System.out.print("Number " + num1 + " * number " + num2 + " equals: ");
             answer = reader.nextInt();
             total = num1 * num2;
-        } else { // division
-            // ensure num2 != 0
+        } else { 
+            
             if (num2 == 0) num2 = 1;
             System.out.print("Number " + (num1 * num2) + " / number " + num2 + " equals: ");
             answer = reader.nextInt();

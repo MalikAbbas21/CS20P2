@@ -4,12 +4,12 @@ public class InvestmentCalculator {
 
     public static void main(String[] args) {
         double principal = 2500.0;
-        double rate = 0.075; // 7.5% annual interest
+        double rate = 0.075; 
         double target = 5000.0;
         double amount = principal;
         int years = 0;
 
-        // Compound annually until amount >= target
+        
         while (amount < target) {
             amount *= (1 + rate);
             years++;
